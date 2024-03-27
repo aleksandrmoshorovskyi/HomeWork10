@@ -12,6 +12,9 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var contentView: SignUpView!
     @IBOutlet weak var scrollView: UIScrollView!
     
+    var cardNumberDelegate = CardNumberTextFieldDelegate()
+    var cvvDelegate = CVVTextFieldDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         subscrubeNotifications()
@@ -19,6 +22,7 @@ class SignUpViewController: UIViewController {
     }
     
     private func setup () {
+        // MARK: - keyboardTypes
         contentView.emailNameTextField.keyboardType = .emailAddress
         
         contentView.passwordTextField.isSecureTextEntry = true
@@ -27,5 +31,9 @@ class SignUpViewController: UIViewController {
         
         contentView.cardNumberTextField.keyboardType = .numberPad
         contentView.cvvTextField.keyboardType = .numberPad
+        
+        // MARK: - delegates
+        contentView.cardNumberTextField.delegate = cardNumberDelegate
+        contentView.cvvTextField.delegate = cvvDelegate
     }
 }
