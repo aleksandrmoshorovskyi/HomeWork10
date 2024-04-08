@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A81278562BC3E66E00A67EA4 /* CommonTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81278552BC3E66E00A67EA4 /* CommonTextFieldDelegate.swift */; };
 		A88CCD592BB44F23004C7056 /* CardNumberTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CCD582BB44F23004C7056 /* CardNumberTextFieldDelegate.swift */; };
 		A88CCD5B2BB460F1004C7056 /* CVVTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CCD5A2BB460F1004C7056 /* CVVTextFieldDelegate.swift */; };
 		A88CCD5D2BB49DB6004C7056 /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CCD5C2BB49DB6004C7056 /* CommonTextField.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A81278552BC3E66E00A67EA4 /* CommonTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextFieldDelegate.swift; sourceTree = "<group>"; };
 		A88CCD582BB44F23004C7056 /* CardNumberTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNumberTextFieldDelegate.swift; sourceTree = "<group>"; };
 		A88CCD5A2BB460F1004C7056 /* CVVTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVVTextFieldDelegate.swift; sourceTree = "<group>"; };
 		A88CCD5C2BB49DB6004C7056 /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A88CCD5C2BB49DB6004C7056 /* CommonTextField.swift */,
+				A81278552BC3E66E00A67EA4 /* CommonTextFieldDelegate.swift */,
 				A88CCD582BB44F23004C7056 /* CardNumberTextFieldDelegate.swift */,
 				A88CCD5A2BB460F1004C7056 /* CVVTextFieldDelegate.swift */,
 				CEAE4D922BB05BDF00B8E545 /* AppDelegate */,
@@ -225,6 +228,7 @@
 				CEAE4D7A2BB05A8500B8E545 /* AppDelegate.swift in Sources */,
 				CEAE4D9E2BB06CAB00B8E545 /* SignUpViewController+Notification.swift in Sources */,
 				CEAE4D7C2BB05A8500B8E545 /* SceneDelegate.swift in Sources */,
+				A81278562BC3E66E00A67EA4 /* CommonTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,6 @@ class CVVTextFieldDelegate: NSObject, UITextFieldDelegate {
 
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 
-        return checkTextField(textField, in: range, str: string, for: 3)
+        return CommonTextField.checkTextField(textField, in: range, str: string, for: 3)
     }
 }
