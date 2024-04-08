@@ -13,6 +13,6 @@ class CommonTextFieldDelegate : NSObject, UITextFieldDelegate {
         
         textField.endEditing(true)
         
-        return false
+        return true
     }
 }

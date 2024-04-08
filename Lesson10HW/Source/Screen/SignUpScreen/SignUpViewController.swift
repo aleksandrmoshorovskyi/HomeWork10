@@ -60,5 +60,6 @@ class SignUpViewController: UIViewController {
         contentView.cityTextField.delegate = commonTextFieldDelegate
         contentView.addressTextField.delegate = commonTextFieldDelegate
         contentView.expDateTextField.delegate = commonTextFieldDelegate
+        //
     }
 }
