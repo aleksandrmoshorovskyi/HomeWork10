@@ -5,6 +5,7 @@
 //  Created by Aleksandr Moroshovskyi on 08.04.2024.
 //
 
+/*
 import UIKit
 
 class CommonTextFieldDelegate : NSObject, UITextFieldDelegate {
@@ -13,6 +14,7 @@ class CommonTextFieldDelegate : NSObject, UITextFieldDelegate {
         
         textField.endEditing(true)
         
-        return true
+        return false
     }
 }
+ */

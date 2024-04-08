@@ -15,7 +15,7 @@ class SignUpViewController: UIViewController {
     var cardNumberDelegate = CardNumberTextFieldDelegate()
     var cvvDelegate = CVVTextFieldDelegate()
     
-    var commonTextFieldDelegate = CommonTextFieldDelegate()
+    //var commonTextFieldDelegate = CommonTextFieldDelegate()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +37,7 @@ class SignUpViewController: UIViewController {
         contentView.cvvTextField.keyboardType = .numberPad
         
         // MARK: - returnKeyType
+        /*
         contentView.firstNameTextField.returnKeyType = .done
         contentView.lastNameTextField.returnKeyType = .done
         contentView.emailNameTextField.returnKeyType = .done
@@ -46,11 +47,13 @@ class SignUpViewController: UIViewController {
         contentView.cityTextField.returnKeyType = .done
         contentView.addressTextField.returnKeyType = .done
         contentView.expDateTextField.returnKeyType = .done
+         */
         
         // MARK: - delegates
         contentView.cardNumberTextField.delegate = cardNumberDelegate
         contentView.cvvTextField.delegate = cvvDelegate
         
+        /*
         contentView.firstNameTextField.delegate = commonTextFieldDelegate
         contentView.lastNameTextField.delegate = commonTextFieldDelegate
         contentView.emailNameTextField.delegate = commonTextFieldDelegate
@@ -60,6 +63,6 @@ class SignUpViewController: UIViewController {
         contentView.cityTextField.delegate = commonTextFieldDelegate
         contentView.addressTextField.delegate = commonTextFieldDelegate
         contentView.expDateTextField.delegate = commonTextFieldDelegate
-        //
+         */
     }
 }
